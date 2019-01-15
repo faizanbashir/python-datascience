@@ -3,4 +3,4 @@ services:
 
 script:
   - docker ps
-  - docker run -dit faizanbashir/python:2.7 sh
+  - docker run -it faizanbashir/python:3.6 sh
