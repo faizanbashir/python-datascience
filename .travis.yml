@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker ps
+  - docker run -dit faizanbashir/python:2.7 sh
